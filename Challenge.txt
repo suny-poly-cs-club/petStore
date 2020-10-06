@@ -1,0 +1,26 @@
+This challenge will invlove using object oriented concepts.
+
+First create a customer class. They'll have the private data memebers: Name, age, favAnimal, favColor, favGender
+
+Create associated accessors and mutators.
+
+Next we will make a animal class. This will have priavte memebers of animalName, age, color, gender.
+
+Create associated accessors and mutators.
+
+Next we will make a petStore Class. This will consist of a 2D array of pets all of which have random things for each field.
+
+create an array of customer that each have random things for each field.
+
+Create a method that takes in a customer. This method will traverse the 2D array of pets. If the pet's animalName, and color, and gender are equal to
+the customer's favAnimal, favColor, and favGender. Set the spot in the 2D array equal to null and exit the loop. Then print out "Name bought a gender color animal"
+
+If the customer doesn't see an animal whose animalName, color, and gender are equal to their favAnimal, favColor, and favGender. Create another loop that 
+traverses the 2D array and check if the color and animalName equal the customer's favAnimal and favColor. If found, set the index in
+the 2D array to null, exit the loop and print "Name bought a gender color animal"
+
+If the customer doesn't see an animal whose animalName and color aren't equal to the customer's favAnimal and favColor. Create a loop that traverses the
+2D array and checks to see if animalName equals favAnimal. If so. Set that index in the 2D array to null, exit the loop and print
+"Name bought a gender color animal"
+
+If none of the other loops find an animal that the customer could want print out "Name didn't buy any pets"
